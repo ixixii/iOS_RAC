@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF7FFC254B6D5AEC53FEB72 /* Pods_14RACMulticastConnection______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4562C048B741C78C9BA8C0 /* Pods_14RACMulticastConnection______.framework */; };
+		3038C74D1FF3645900B2C09C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038C74C1FF3645900B2C09C /* main.m */; };
+		3038C7501FF3645900B2C09C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038C74F1FF3645900B2C09C /* AppDelegate.m */; };
+		3038C7531FF3645900B2C09C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038C7521FF3645900B2C09C /* ViewController.m */; };
+		3038C7561FF3645900B2C09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3038C7541FF3645900B2C09C /* Main.storyboard */; };
+		3038C7581FF3645900B2C09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3038C7571FF3645900B2C09C /* Assets.xcassets */; };
+		3038C75B1FF3645900B2C09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3038C7591FF3645900B2C09C /* LaunchScreen.storyboard */; };
+		3078D3711FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3078D36C1FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.m */; };
+		3078D3721FF8D963000D0AE8 /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3078D36E1FF8D963000D0AE8 /* NAKPlaybackIndicatorView.m */; };
+		3078D3731FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3078D3701FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3038C7481FF3645900B2C09C /* 14RACMulticastConnection避免重复请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14RACMulticastConnection避免重复请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3038C74C1FF3645900B2C09C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3038C74E1FF3645900B2C09C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3038C74F1FF3645900B2C09C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3038C7511FF3645900B2C09C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3038C7521FF3645900B2C09C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3038C7551FF3645900B2C09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3038C7571FF3645900B2C09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3038C75A1FF3645900B2C09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3038C75C1FF3645900B2C09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3078D36B1FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorContentView.h; sourceTree = "<group>"; };
+		3078D36C1FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorContentView.m; sourceTree = "<group>"; };
+		3078D36D1FF8D963000D0AE8 /* NAKPlaybackIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorView.h; sourceTree = "<group>"; };
+		3078D36E1FF8D963000D0AE8 /* NAKPlaybackIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorView.m; sourceTree = "<group>"; };
+		3078D36F1FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorViewStyle.h; sourceTree = "<group>"; };
+		3078D3701FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorViewStyle.m; sourceTree = "<group>"; };
+		476813531A3E7E1AE75F1A9C /* Pods-14RACMulticastConnection避免重复请求.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-14RACMulticastConnection避免重复请求.debug.xcconfig"; path = "Pods/Target Support Files/Pods-14RACMulticastConnection避免重复请求/Pods-14RACMulticastConnection避免重复请求.debug.xcconfig"; sourceTree = "<group>"; };
+		5F76A3C37811E737F4E68907 /* Pods-14RACMulticastConnection避免重复请求.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-14RACMulticastConnection避免重复请求.release.xcconfig"; path = "Pods/Target Support Files/Pods-14RACMulticastConnection避免重复请求/Pods-14RACMulticastConnection避免重复请求.release.xcconfig"; sourceTree = "<group>"; };
+		7E4562C048B741C78C9BA8C0 /* Pods_14RACMulticastConnection______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_14RACMulticastConnection______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3038C7451FF3645900B2C09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF7FFC254B6D5AEC53FEB72 /* Pods_14RACMulticastConnection______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063A37721D59A3CDCB78F0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				476813531A3E7E1AE75F1A9C /* Pods-14RACMulticastConnection避免重复请求.debug.xcconfig */,
+				5F76A3C37811E737F4E68907 /* Pods-14RACMulticastConnection避免重复请求.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		152DB556A7397157859A85B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E4562C048B741C78C9BA8C0 /* Pods_14RACMulticastConnection______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3038C73F1FF3645900B2C09C = {
+			isa = PBXGroup;
+			children = (
+				3038C74A1FF3645900B2C09C /* 14RACMulticastConnection避免重复请求 */,
+				3038C7491FF3645900B2C09C /* Products */,
+				063A37721D59A3CDCB78F0FB /* Pods */,
+				152DB556A7397157859A85B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3038C7491FF3645900B2C09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3038C7481FF3645900B2C09C /* 14RACMulticastConnection避免重复请求.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3038C74A1FF3645900B2C09C /* 14RACMulticastConnection避免重复请求 */ = {
+			isa = PBXGroup;
+			children = (
+				3038C74E1FF3645900B2C09C /* AppDelegate.h */,
+				3038C74F1FF3645900B2C09C /* AppDelegate.m */,
+				3038C7511FF3645900B2C09C /* ViewController.h */,
+				3038C7521FF3645900B2C09C /* ViewController.m */,
+				3078D36A1FF8D963000D0AE8 /* MusicIndicatorView */,
+				3038C7541FF3645900B2C09C /* Main.storyboard */,
+				3038C7571FF3645900B2C09C /* Assets.xcassets */,
+				3038C7591FF3645900B2C09C /* LaunchScreen.storyboard */,
+				3038C75C1FF3645900B2C09C /* Info.plist */,
+				3038C74B1FF3645900B2C09C /* Supporting Files */,
+			);
+			path = "14RACMulticastConnection避免重复请求";
+			sourceTree = "<group>";
+		};
+		3038C74B1FF3645900B2C09C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3038C74C1FF3645900B2C09C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3078D36A1FF8D963000D0AE8 /* MusicIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				3078D36B1FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.h */,
+				3078D36C1FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.m */,
+				3078D36D1FF8D963000D0AE8 /* NAKPlaybackIndicatorView.h */,
+				3078D36E1FF8D963000D0AE8 /* NAKPlaybackIndicatorView.m */,
+				3078D36F1FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.h */,
+				3078D3701FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.m */,
+			);
+			path = MusicIndicatorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3038C7471FF3645900B2C09C /* 14RACMulticastConnection避免重复请求 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3038C75F1FF3645900B2C09C /* Build configuration list for PBXNativeTarget "14RACMulticastConnection避免重复请求" */;
+			buildPhases = (
+				9DE48A82106BEB40FEAB0072 /* [CP] Check Pods Manifest.lock */,
+				3038C7441FF3645900B2C09C /* Sources */,
+				3038C7451FF3645900B2C09C /* Frameworks */,
+				3038C7461FF3645900B2C09C /* Resources */,
+				EA208C94CF8873E6E3D7BA37 /* [CP] Embed Pods Frameworks */,
+				A7D417754A7CC9D32E16F36F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14RACMulticastConnection避免重复请求";
+			productName = "14RACMulticastConnection避免重复请求";
+			productReference = 3038C7481FF3645900B2C09C /* 14RACMulticastConnection避免重复请求.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3038C7401FF3645900B2C09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = beyond;
+				TargetAttributes = {
+					3038C7471FF3645900B2C09C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3038C7431FF3645900B2C09C /* Build configuration list for PBXProject "14RACMulticastConnection避免重复请求" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3038C73F1FF3645900B2C09C;
+			productRefGroup = 3038C7491FF3645900B2C09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3038C7471FF3645900B2C09C /* 14RACMulticastConnection避免重复请求 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3038C7461FF3645900B2C09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3038C75B1FF3645900B2C09C /* LaunchScreen.storyboard in Resources */,
+				3038C7581FF3645900B2C09C /* Assets.xcassets in Resources */,
+				3038C7561FF3645900B2C09C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DE48A82106BEB40FEAB0072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D417754A7CC9D32E16F36F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-14RACMulticastConnection避免重复请求/Pods-14RACMulticastConnection避免重复请求-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA208C94CF8873E6E3D7BA37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-14RACMulticastConnection避免重复请求/Pods-14RACMulticastConnection避免重复请求-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3038C7441FF3645900B2C09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3078D3711FF8D963000D0AE8 /* NAKPlaybackIndicatorContentView.m in Sources */,
+				3038C7531FF3645900B2C09C /* ViewController.m in Sources */,
+				3078D3731FF8D963000D0AE8 /* NAKPlaybackIndicatorViewStyle.m in Sources */,
+				3078D3721FF8D963000D0AE8 /* NAKPlaybackIndicatorView.m in Sources */,
+				3038C7501FF3645900B2C09C /* AppDelegate.m in Sources */,
+				3038C74D1FF3645900B2C09C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3038C7541FF3645900B2C09C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3038C7551FF3645900B2C09C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3038C7591FF3645900B2C09C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3038C75A1FF3645900B2C09C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3038C75D1FF3645900B2C09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3038C75E1FF3645900B2C09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3038C7601FF3645900B2C09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476813531A3E7E1AE75F1A9C /* Pods-14RACMulticastConnection避免重复请求.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "14RACMulticastConnection避免重复请求/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sg31.-4RACMulticastConnection------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		3038C7611FF3645900B2C09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F76A3C37811E737F4E68907 /* Pods-14RACMulticastConnection避免重复请求.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "14RACMulticastConnection避免重复请求/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sg31.-4RACMulticastConnection------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3038C7431FF3645900B2C09C /* Build configuration list for PBXProject "14RACMulticastConnection避免重复请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038C75D1FF3645900B2C09C /* Debug */,
+				3038C75E1FF3645900B2C09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3038C75F1FF3645900B2C09C /* Build configuration list for PBXNativeTarget "14RACMulticastConnection避免重复请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038C7601FF3645900B2C09C /* Debug */,
+				3038C7611FF3645900B2C09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3038C7401FF3645900B2C09C /* Project object */;
+}

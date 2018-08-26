@@ -1,0 +1,6 @@
+framework module Pods_07RACSubject {
+  umbrella header "Pods-07RACSubject-umbrella.h"
+
+  export *
+  module * { export * }
+}

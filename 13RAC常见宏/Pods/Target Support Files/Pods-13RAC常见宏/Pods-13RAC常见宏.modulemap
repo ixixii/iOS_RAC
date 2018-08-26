@@ -1,0 +1,6 @@
+framework module Pods_13RAC___ {
+  umbrella header "Pods-13RAC常见宏-umbrella.h"
+
+  export *
+  module * { export * }
+}

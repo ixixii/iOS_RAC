@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-14RACMulticastConnection避免重复请求.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDCycleScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0ADCC525975BF93C71E4467CBA0F1853</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F2C2C309F16E1EBD9C2DF039C80E473</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CBF3F31E4CC13B623FF3973BCAA3D5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4221E5FE3FADC3690400499C6063EF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

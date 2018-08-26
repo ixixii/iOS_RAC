@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "14RACMulticastConnection&#x907f;&#x514d;&#x91cd;&#x590d;&#x8bf7;&#x6c42;/ViewController.m"
+            timestampString = "536402723.171541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-rac_avoid_multi_connection"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController rac_avoid_multi_connection]"
+                  moduleName = "14RACMulticastConnection&#x907f;&#x514d;&#x91cd;&#x590d;&#x8bf7;&#x6c42;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyond/sg_Project/14RACMulticastConnection%E9%81%BF%E5%85%8D%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82/14RACMulticastConnection%E9%81%BF%E5%85%8D%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82/ViewController.m"
+                  timestampString = "536047526.135237"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__44-[ViewController rac_avoid_multi_connection]_block_invoke"
+                  moduleName = "14RACMulticastConnection&#x907f;&#x514d;&#x91cd;&#x590d;&#x8bf7;&#x6c42;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyond/sg_Project/14RACMulticastConnection%E9%81%BF%E5%85%8D%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82/14RACMulticastConnection%E9%81%BF%E5%85%8D%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82/ViewController.m"
+                  timestampString = "536047526.138588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

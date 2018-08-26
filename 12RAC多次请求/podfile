@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+
+
+target “12RAC多次请求” do
+    pod 'ReactiveObjC', '~> 3.0’
+
+
+	
+end

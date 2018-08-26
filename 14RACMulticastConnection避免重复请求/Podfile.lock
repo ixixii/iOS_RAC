@@ -1,0 +1,20 @@
+PODS:
+  - ReactiveObjC (3.0.0)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+
+DEPENDENCIES:
+  - ReactiveObjC (~> 3.0)
+  - SDCycleScrollView (~> 1.75)
+
+SPEC CHECKSUMS:
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+
+PODFILE CHECKSUM: cd4f78605a42cec3096fc3896c1cccfe696d2eb2
+
+COCOAPODS: 1.0.1

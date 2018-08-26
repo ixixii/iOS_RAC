@@ -1,0 +1,6 @@
+framework module Pods_12RAC____ {
+  umbrella header "Pods-12RAC多次请求-umbrella.h"
+
+  export *
+  module * { export * }
+}

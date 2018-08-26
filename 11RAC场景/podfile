@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+
+
+target “11RAC场景” do
+    pod 'ReactiveObjC', '~> 3.0’
+#    pod 'MJExtension', '~> 3.0’
+
+	
+end
